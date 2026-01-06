@@ -2,10 +2,13 @@ import { HomePage } from "./pages/homePage.js";
 import { MenuPage } from "./pages/menuPage.js";
 import { AboutPage } from "./pages/aboutPage.js";
 
+import "./styles/style.css";
+
 class Button {
     constructor(button, associatedPage) {
         this._contentDiv = document.getElementById("content");
         this._button = button;
+        this._button.classList.add("nav-button");
         this._associatedPage = associatedPage;
         this._button.addEventListener("click", () => {
             const renderedContent = associatedPage.renderContent();

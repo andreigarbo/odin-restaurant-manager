@@ -1,5 +1,7 @@
+import veganFoodJpg from "../assets/vegan-food.jpg"
 
 export class HomePage {
+    
     constructor() { 
 
     }
@@ -19,7 +21,7 @@ export class HomePage {
         bodyPara.classList.add("body-text");
 
         const fruitVegImage = document.createElement("img");
-        fruitVegImage.src = "./assets/vegan-food.jpg";
+        fruitVegImage.src = veganFoodJpg;
         fruitVegImage.alt = "A picture of fruits and vegetables";
 
         content.appendChild(titlePara);

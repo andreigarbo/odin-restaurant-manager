@@ -1,0 +1,74 @@
+:root {
+    --pastel-pink: #FFC1CF;
+    --tea-green: #E8FFB7;
+    --mauve: #E2A0FF;
+    --light-cyan: #C4F5FC;
+    --aquamarine: #B7FFD8;
+
+    --space-indigo: #222E50;
+    --dark-slate-grey: #2A4849;
+    --muted-olive: #8BB174;
+    --pine-blue: #426B69;
+}
+
+body {
+    font-family: "Atkinson Hyperlegible Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    margin: 0;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--pine-blue);
+}
+
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    color: white;
+}
+
+
+li {
+    padding-bottom: 40px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-button {
+    margin: 30px 20px 15px 20px;
+    width: 15vw;
+    border-style: solid;
+    border-width: 0;
+    background-color: var(--space-indigo);
+    color: white;
+    border-radius: 10px;
+    height: 4vh;
+}
+
+.nav-button:first-of-type {
+    margin-left: 0;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10vw;
+}
